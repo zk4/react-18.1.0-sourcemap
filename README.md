@@ -27,11 +27,12 @@ in your react app project, switch to `react 18.1.0` and link the external source
 ```
 npm link ract@18.1.0
 npm link ract-dom@18.1.0
+npm run start
 ```
 
+and you are good to go .
 
-
-
+![image-20230420220351112](https://md4zk.oss-cn-beijing.aliyuncs.com/uPic/image-20230420220351112.png)
 
 
 
