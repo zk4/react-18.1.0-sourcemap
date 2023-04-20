@@ -3,9 +3,9 @@ build react 18.1.0 with sourcemap linking to src code
 # how to use 
 
 ## prepare
-There 2 ways:
+There are 2 ways:
 
-**use the prebuilt **
+**use the prebuilt**
 
 ```
 1. cd  build/node_modules/react && npm link
