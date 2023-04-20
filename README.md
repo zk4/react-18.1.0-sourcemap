@@ -1,3 +1,45 @@
+build react 18.1.0 with sourcemap linking to src code 
+
+# how to use 
+
+## prepare
+There 2 ways:
+
+**use the prebuilt **
+
+```
+1. cd  build/node_modules/react && npm link
+2. cd  build/node_modules/react-dom && npm link
+```
+
+**rebuid the sourcecode**
+
+```
+1. npm i && npm build
+2. cd  build/node_modules/react && npm link
+3. cd  build/node_modules/react-dom && npm link
+```
+
+## link your app source code
+
+in your react app project, switch to `react 18.1.0` and link the external source code
+
+```
+npm link ract@18.1.0
+npm link ract-dom@18.1.0
+```
+
+
+
+
+
+
+
+
+
+
+
+
 # [React](https://reactjs.org/) &middot; [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/facebook/react/blob/main/LICENSE) [![npm version](https://img.shields.io/npm/v/react.svg?style=flat)](https://www.npmjs.com/package/react) [![CircleCI Status](https://circleci.com/gh/facebook/react.svg?style=shield&circle-token=:circle-token)](https://circleci.com/gh/facebook/react) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://reactjs.org/docs/how-to-contribute.html#your-first-pull-request)
 
 React is a JavaScript library for building user interfaces.
