@@ -22,6 +22,20 @@ There 2 ways:
 
 ## link your app source code
 
+**demo for fun**
+
+```
+cd demo 
+npm install 
+npm link ract@18.1.0
+npm link ract-dom@18.1.0
+npm run start
+```
+
+
+
+**in your project**
+
 in your react app project, switch to `react 18.1.0` and link the external source code
 
 ```
